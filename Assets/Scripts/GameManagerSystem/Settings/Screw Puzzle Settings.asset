@@ -1,0 +1,71 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 1b212bd8fc358174ca16662202dc9092, type: 3}
+  m_Name: Screw Puzzle Settings
+  m_EditorClassIdentifier: 
+  mapHeight: 41
+  mapWidth: 21
+  prefabScrewController: {fileID: 5749297991185933851, guid: 0034ae52195e14c4884d74fa49512f5c, type: 3}
+  prefabHoleController: {fileID: 478538045204767017, guid: bbfa69058281e764ab7f7aeacad9d640, type: 3}
+  prefabHoleOnBoard: {fileID: 1607846142282687775, guid: a3a8e922148e1f746ae32487eae978af, type: 3}
+  spriteBoards:
+  - {fileID: 21300000, guid: 824c6e4f532042b4398d1cde4acbc9ee, type: 3}
+  - {fileID: 21300000, guid: f91590254c129234e8d648f02e4b4e26, type: 3}
+  - {fileID: 21300000, guid: 29b30635c6cb62147a84f3b388c463fb, type: 3}
+  - {fileID: 21300000, guid: 2a9db99993b7c5b40ae939dbd2fda000, type: 3}
+  - {fileID: 21300000, guid: dd117fe70e0b6884b86d875b7a889a22, type: 3}
+  - {fileID: 21300000, guid: 9b696cbe05ede6d489d12d1f765855ab, type: 3}
+  - {fileID: 21300000, guid: e260be87e91042847ba129393528ab9a, type: 3}
+  - {fileID: 21300000, guid: 824c6e4f532042b4398d1cde4acbc9ee, type: 3}
+  - {fileID: 21300000, guid: f91590254c129234e8d648f02e4b4e26, type: 3}
+  - {fileID: 21300000, guid: 29b30635c6cb62147a84f3b388c463fb, type: 3}
+  spriteTBoards:
+  - {fileID: 21300000, guid: 9128c21ee5d25b1488fc48a60ef308d5, type: 3}
+  - {fileID: 21300000, guid: ab96a8105a06c8848b68f6304869110d, type: 3}
+  spriteCircleBoards:
+  - {fileID: 21300000, guid: b8c04dea6710620428b49059d0e19a8d, type: 3}
+  - {fileID: 21300000, guid: ff41f8a4e3321f44eb9e8f2e4b1cb805, type: 3}
+  - {fileID: 21300000, guid: cc743f2e2083eab43b98b17c6bfda03a, type: 3}
+  - {fileID: 21300000, guid: 57eeb3eca59eeb44d99f11a5ffdc3fb5, type: 3}
+  - {fileID: 21300000, guid: 97333a6a3db5d874a8d4ab657c78e26b, type: 3}
+  - {fileID: 21300000, guid: f15c992f8331b9d47930c7deb77d8ba3, type: 3}
+  - {fileID: 21300000, guid: b8c04dea6710620428b49059d0e19a8d, type: 3}
+  spritePlusBoards:
+  - {fileID: 21300000, guid: 3b1162ad38a58b94b8742bf1144df407, type: 3}
+  - {fileID: 21300000, guid: ba3cf92ab8b36d74e938a2de7944a822, type: 3}
+  - {fileID: 21300000, guid: 3b1162ad38a58b94b8742bf1144df407, type: 3}
+  spriteEBoards:
+  - {fileID: 21300000, guid: 77467ba9196a9ae4894bb471d409ac9d, type: 3}
+  - {fileID: 21300000, guid: fb1ebfa9974d49e429080bb87c354659, type: 3}
+  - {fileID: 21300000, guid: 77467ba9196a9ae4894bb471d409ac9d, type: 3}
+  - {fileID: 21300000, guid: fb1ebfa9974d49e429080bb87c354659, type: 3}
+  spriteSmallCircleBoards:
+  - {fileID: 21300000, guid: 8945ae23e65c6b243af7f70eec99d083, type: 3}
+  - {fileID: 21300000, guid: b0ef25ec376ee7c4d84428d8a4005b58, type: 3}
+  - {fileID: 21300000, guid: 8945ae23e65c6b243af7f70eec99d083, type: 3}
+  - {fileID: 21300000, guid: b0ef25ec376ee7c4d84428d8a4005b58, type: 3}
+  spriteHexagonBoards:
+  - {fileID: 21300000, guid: fb85ab0e8bf14c24aa901dbec343e8d1, type: 3}
+  - {fileID: 21300000, guid: fb85ab0e8bf14c24aa901dbec343e8d1, type: 3}
+  - {fileID: 21300000, guid: ce4dfcadaead14d4d852f004f3e372c4, type: 3}
+  - {fileID: 21300000, guid: ce4dfcadaead14d4d852f004f3e372c4, type: 3}
+  spriteLBoards:
+  - {fileID: 21300000, guid: a5f4a99ba8fd8f446b64e4c5a7af3acf, type: 3}
+  - {fileID: 21300000, guid: a5f4a99ba8fd8f446b64e4c5a7af3acf, type: 3}
+  - {fileID: 21300000, guid: 8951dea100b31084bb3e64beba18ac44, type: 3}
+  - {fileID: 21300000, guid: 8951dea100b31084bb3e64beba18ac44, type: 3}
+  prefabUIManager: {fileID: 4103125989101664067, guid: fe24bf9e2a787e748ae4b6d932ede70d, type: 3}
+  prefabGameManager: {fileID: 2566579824397843620, guid: 4b23d352a21ec23448eb49d27ed1b70f, type: 3}
+  gameDuration: 180
+  audioMixer: {fileID: 24100000, guid: d53e7da5de3f356418183f8f332510a9, type: 2}
+  gameItems: {fileID: 11400000, guid: 9bdb4b87a9df4ee46b6520bed6d7ea1a, type: 2}
+  coinsPerBoard: 1
